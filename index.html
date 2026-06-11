@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Shopping Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🛍️ My Shopping Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Products Section -->
+  <section class="products">
+    <h2>✨ Featured Products</h2>
+    <div class="product-list">
+
+      <div class="product">
+        <img src="image/shirt.webp" alt="shirt">
+        <h3>Cool shirt</h3>
+        <p>$20.00</p>
+        <button onclick="addToCart('shirt', 20, 'images/shirt.webp')">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="image/sheos.webp" alt="sheos">
+        <h3> Sheos</h3>
+        <p>$45.00</p>
+        <button onclick="addToCart('Stylish Shoes', 45, 'images/sheos.webp')">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="watch.webp" alt="watch">
+        <h3> watch</h3>
+        <p>$120.00</p>
+        <button onclick="addToCart('Luxury Watch', 120, 'images/watch.webp')">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
