@@ -1,57 +1,64 @@
-The Automatic Lighting System is an IoT/embedded systems project designed to automatically control lighting based on environmental conditions such as ambient light levels and/or human presence. The system helps reduce energy consumption by turning lights on only when needed and switching them off when sufficient natural light is available or when no occupancy is detected.
+Shopping Website
+
+Overview :
+This project is a responsive and user-friendly Shopping Website designed to provide customers with a seamless online shopping experience. Users can browse products, view product details, add items to their cart, and manage purchases efficiently.
 
 Features :
 
-Automatic ON/OFF control of lights
-Ambient light sensing using an LDR (Light Dependent Resistor)
-Energy-efficient operation
-Real-time monitoring of light conditions
-Simple and cost-effective design
-Suitable for homes, offices, classrooms, and smart buildings
-Hardware Components :
+User-friendly interface
+Product listing and categorization
+Product search functionality
+Shopping cart management
+Responsive design for mobile and desktop devices
+Secure checkout process (if implemented)
+User authentication and account management (if implemented)
 
-Microcontroller (Arduino Uno/Nano, ESP8266, ESP32, etc.)
-LDR (Light Dependent Resistor)
-Relay Module
-LED/Bulb
-Resistors
-Breadboard and Jumper Wires
-Power Supply
-Working Principle :
+Technologies Used :
 
-The LDR continuously measures the surrounding light intensity.
-The microcontroller reads the sensor values.
-When the ambient light level falls below a predefined threshold, the system automatically turns the light ON.
-When sufficient natural light is detected, the system turns the light OFF.
-This process runs continuously, ensuring efficient lighting control without manual intervention.
-Applications :
+HTML5
+CSS3
+JavaScript
+Bootstrap / Tailwind CSS (if used)
+React.js (if used)
+Node.js and Express.js (if used)
+MongoDB / MySQL (if used)
 
-Smart homes
-Street lighting systems
-Office buildings
-Educational institutions
-Warehouses and storage facilities
-Energy-saving automation projects
-Benefits :
-
-Reduces electricity consumption
-Minimizes human intervention
-Extends the lifespan of lighting devices
-Improves convenience and automation
-Supports sustainable energy usage
-Future Enhancements :
-
-Mobile app monitoring and control
-IoT cloud integration for remote access
-Motion detection using PIR sensors
-Brightness adjustment with PWM control
-Energy usage analytics and reporting
 Project Structure :
 
-Automatic-Lighting-System/
+shopping-website/
 │
-├── src/                 # Source code
-├── circuit_diagram/     # Circuit diagrams and schematics
-├── images/              # Project images
-├── documentation/       # Additional documentation
+├── index.html
+├── css/
+├── js/
+├── images/
+├── products/
 └── README.md
+Installation:
+
+Clone the repository:
+
+git clone https://github.com/your-username/shopping-website.git
+
+Navigate to the project folder:
+
+cd shopping-website
+Open index.html in your browser or start the development server.
+
+Usage :
+
+Browse available products.
+Search for specific items.
+Add products to the shopping cart.
+Review cart contents before checkout.
+Future Enhancements
+Online payment integration
+Product reviews and ratings
+Wishlist functionality
+Order tracking system
+Admin dashboard for product management
+
+Author :
+\Harshika
+
+License :
+This project is developed for educational and learning purposes
